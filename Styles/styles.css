@@ -11,6 +11,7 @@ body {
   font-weight: 700;
   padding: 20px 43px;
 }
+
 /* header styles */
 .header {
   background-color: rgba(229, 84, 115, 0.1);
@@ -49,7 +50,6 @@ body {
 }
 
 /* featured section styles */
-
 .featured {
   background: #fff;
   padding-top: 100px;
@@ -57,9 +57,10 @@ body {
 }
 .featured-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-left: 316px;
   padding-right: 316px;
+  align-items: center;
 }
 .featured-title {
   color: #272727;
@@ -121,6 +122,7 @@ body {
   padding-bottom: 100px;
   text-align: center;
 }
+
 /* Hot deals section */
 .span {
   color: #e55473;
@@ -187,9 +189,9 @@ body {
 }
 
 /* Latest Deal Section */
-
 .latest-deals {
   background-image: url("../images/Rectangle\ 9.png");
+  margin-top: 128px;
   padding-top: 128px;
   align-items: center;
   padding-bottom: 128px;
@@ -231,6 +233,73 @@ input[type="email"] {
   width: 800px;
   height: 28px;
   margin-right: 16px;
+}
+
+/* Send Instantly section */
+.quality {
+  padding-top: 60px;
+  background: rgba(229, 84, 115, 0.05);
+  text-align: center;
+}
+.quality-content {
+  padding-left: 395px;
+  padding-right: 395px;
+  align-items: center;
+}
+.quality-video-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.quality-content-item-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+.quality-content-item-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* Customer Review */
+.customer-review {
+  background: rgba(229, 84, 115, 0.05);
+  align-items: center;
+  padding-bottom: 128px;
+  padding-top: 128px;
+}
+.customer-review-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 450px;
+  padding-right: 450px;
+}
+.customer-review-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.customer-review-header {
+  padding-bottom: 50px;
+}
+.customer-review-content-item {
+  padding: 10px;
+}
+.customer-review-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.customer-review-content-item-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 /* Footer Section */
