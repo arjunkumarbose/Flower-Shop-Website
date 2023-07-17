@@ -325,3 +325,215 @@ input[type="email"] {
   font-weight: 400;
   padding-top: 32px;
 }
+
+/* responsive website approach */
+@media (max-width: 768px) {
+  .header {
+    padding: 50px 20px;
+  }
+
+  .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-header {
+    font-size: 40px;
+    text-align: center;
+    width: auto;
+    margin: 20px 0;
+  }
+
+  .banner-description {
+    font-size: 16px;
+    text-align: center;
+    width: auto;
+    margin: 20px 0;
+  }
+
+  .banner-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .banner-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .featured-title {
+    font-size: 24px;
+  }
+
+  .featured-header {
+    font-size: 24px;
+  }
+
+  .featured-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .featured-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .featured-img-1,
+  .featured-img-2,
+  .featured-img-3 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px 5px;
+  }
+
+  .support-content {
+    flex-direction: column;
+    margin: 0;
+    padding: 30px;
+  }
+
+  .hot-deal-content {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .hot-deal-content-item-title {
+    font-size: 24px;
+  }
+
+  .hot-deal-content-item-description {
+    font-size: 14px;
+  }
+
+  .instagram-title {
+    font-size: 24px;
+  }
+
+  .instagram-content {
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+  .instagram-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .instagram-content-item {
+    flex: 1 1 50%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .instagram-description {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .latest-deals-title {
+    font-size: 24px;
+  }
+
+  .latest-deals-content {
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .latest-deals {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .latest-deals-description {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .quality-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    margin: 0 -10px;
+  }
+
+  .quality-video-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 0 -10px;
+  }
+
+  .quality-content-item-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .quality-content-item-description {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .quality-video-content .quality-content-item {
+    flex: 1 0 50%;
+    padding: 10px;
+  }
+
+  .customer-review-title {
+    font-size: 24px;
+  }
+
+  .customer-review-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .customer-review-content-item {
+    flex: 1 1 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .customer-review-content-item-img {
+    margin: 0 auto;
+  }
+
+  .customer-review-description {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .footer-description,
+  .footer-bottom-text {
+    font-size: 12px;
+  }
+}
